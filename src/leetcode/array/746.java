@@ -21,6 +21,7 @@ class Solution {
 然后判断与当前cost[i]相加，并判断哪个最小。
 
 a=b;b=res;
-这一步就是为了保存cost[i-1]和cost[i-2]。
+这一步就是为了保存到现在这一步所需的总的cost和上一步的cost。
+保存下来是为了对比下一步相加的结果。
 a=b
 b=res
